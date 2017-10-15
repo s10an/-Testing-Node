@@ -7,7 +7,7 @@ var encryptStream = crypto.createCipher('aes-256-cbc', password);
 
 var gzip = zlib.createGzip();
 var readStream = fs.createReadStream('README.md'); // current file
-var writeStream = fs.createWriteStream('StreamOut' + '/out.gz');
+var writeStream = fs.createWriteStream('StreamTutorialOutput' + '/out.gz');
 
 readStream   // reads current file
     .pipe(encryptStream) // encrypts
