@@ -1,0 +1,24 @@
+{
+  "name": "testingnpminit",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "CreateHttpServer.js",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "irc": "^0.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s10an/Testing-Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s10an/Testing-Node/issues"
+  },
+  "homepage": "https://github.com/s10an/Testing-Node#readme"
+}
